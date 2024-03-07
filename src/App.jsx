@@ -8,6 +8,8 @@ import Shop from './components/Shop/shop'
 import Courses from './components/Courses/courses'
 import CoursesPricing from './components/Courses Pricing/coursesPricing'
 import JoinAsTeacher from './components/Join As Teacher/joinAsTeacher'
+import Mentors from './components/Mentors/mentors'
+import MentorDetails from './components/Mentor Details/mentorDetails'
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       {/* <Shop /> */}
       {/* <Courses /> */}
       {/* <CoursesPricing /> */}
-      <JoinAsTeacher />
+      {/* <JoinAsTeacher /> */}
+      {/* <Mentors /> */}
+      <MentorDetails />
       <Footer />
     </div>
   )
